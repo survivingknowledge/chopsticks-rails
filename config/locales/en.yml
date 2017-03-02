@@ -20,4 +20,20 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
-  hello: "Hello world"
+  #account navigation
+  sign_in: "Sign in"
+  sign_up: "Sign up"
+  logout: "Logout"
+  hi: "Hi"
+
+  #main navigation
+  food: "Food"
+  exercise: "Exercise"
+  reports: "Reports"
+  apps: "Apps"
+  community: "Community"
+
+  #foods
+  food_created: "Food Sucessfully Created!"
+  food_updated: "Food Sucessfully Updated!"
+

@@ -1,0 +1,16 @@
+jp:
+  sign_in: "サインイン"
+  sign_up: "サインアップ"
+  logout: "ログアウト"
+  hi: "今日は"
+
+  #main navigation
+  food: "フード"
+  exercise: "運動"
+  reports: "レポート"
+  apps: "アプリ"
+  community: "コミュニティ"
+
+  #foods
+  food_created: "Food Sucessfully Created!"
+  food_updated: "Food Sucessfully Updated!"
