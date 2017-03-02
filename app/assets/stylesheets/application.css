@@ -2,3 +2,92 @@
  *= require_tree .
  *= require_self
  */
+
+html, body {
+  margin:0;
+  background: #ECF0F1;
+}
+
+ul,ol{
+  list-style: none;
+  margin:0;
+  padding:0;
+}
+
+
+.container{
+  width:1440px;
+  margin:0 auto;
+}
+
+.fright{
+  float:right;
+}
+
+nav{
+  display: block;
+  position: relative;
+  width:1440px;
+  height: 36px;
+  background-color: #22313F;
+  margin:0 auto;
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
+  overflow: hidden;
+  padding: 0 5px;
+  box-sizing: border-box;
+}
+
+nav::after{
+  content: " "
+  display: table;
+  clear: both;
+}
+
+nav ul li{
+  float:left;
+  line-height: 36px;
+  color: #fff;
+  font-size: .9rem;
+}
+
+nav ul li a{
+  font-family: sans-serif;
+  font-size: 1rem;
+  text-decoration: none;
+  padding: 0 10px;
+  line-height: 36px;
+  color: #fff;
+  font-weight: bold;
+  display:block;
+  -webkit-transition: background .5s;
+  transition: background .5s;
+  border-left: 1px solid #2C3E50;
+}
+
+nav ul li:first-child a{
+  padding-right: 10px;
+  border-left: 0;
+}
+
+nav ul li a:hover{
+  background: #2C3E50;
+}
+
+.accountnav_links{
+  font-size:.75rem;
+}
+
+.icon{
+  position: relative;
+  top:2px;
+}
+
+.icon-home{
+  position: relative;
+  top:4px;
+}
+
+.spacer-right{
+  padding-right:5px;
+}
